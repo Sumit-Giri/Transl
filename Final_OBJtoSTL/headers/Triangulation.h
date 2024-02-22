@@ -13,7 +13,7 @@ public:
     vector<Triangle> &normalTrinangles();
     vector<Point3D> &uniquePoints();
     vector<Point3D> &uniqueNormal();
-    void printtriangles();
+    
 
 private:
     vector<Triangle> mTriangles;

@@ -15,7 +15,7 @@ writer ::~writer()
 void writer ::writerStl(Triangulation &triangulation)
 {
 
-    ofstream outFile("cube.txt");
+    ofstream outFile("Cubefr.txt");
 
     if (!outFile.is_open())
     {

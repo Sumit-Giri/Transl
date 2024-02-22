@@ -12,15 +12,15 @@
 using namespace std;
 
 
-reader :: reader()
+Reader :: Reader()
 {
 
 }
-reader :: ~reader()
+Reader :: ~Reader()
 {
 
 }
-void reader::readObj(Triangulation &triangulation)
+void Reader::readObj(Triangulation &triangulation)
 {
    
     ifstream inputfile("Cube.obj");

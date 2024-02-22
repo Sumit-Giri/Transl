@@ -1,10 +1,10 @@
 #pragma once
 #include "Triangulation.h"
 
-class reader
+class Reader
 {
 public:
-    reader();
-    ~reader();
-    void readObj(Triangulation &triangulation);
+    Reader();
+    ~Reader();
+    void readObj(Triangulation& triangulation);
 };

@@ -3,10 +3,10 @@
 #include "Triangle.h"
 #include "Triangulation.h"
 
-class writer
+class Writer
 {
 public:
-    writer();
-    ~writer();
+    Writer();
+    ~Writer();
     void writeOBJ(Triangulation &triangulation);
 };

@@ -20,7 +20,7 @@ reader ::~reader()
 
 void reader ::readFile1(Triangulation &triangualtion)
 {
-    std::ifstream readFromFile("cube.stl");
+    std::ifstream readFromFile("Sphere3.stl");
 
     map<Point3D, int> mapppedPoint3D;
     map<Point3D, int> mappedNormals;

@@ -9,14 +9,14 @@
 
 using namespace std;
 
-writer ::writer()
+Writer ::Writer()
 {
 }
 
-writer ::~writer()
+Writer ::~Writer()
 {
 }
-void writer::writeOBJ(Triangulation &triangulation)
+void Writer::writeOBJ(Triangulation &triangulation)
 {
     std::ofstream outFile("cube.stl");
 

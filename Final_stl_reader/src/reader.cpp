@@ -20,7 +20,7 @@ reader ::~reader()
 
 void reader ::readFile1(Triangulation &triangualtion)
 {
-    std::ifstream readFromFile("cube.stl");
+    std::ifstream readFromFile("Cubefr.stl");
 
     // vector<Triangle> vertexData;
     // vector<Point3D> uniquePoints;
